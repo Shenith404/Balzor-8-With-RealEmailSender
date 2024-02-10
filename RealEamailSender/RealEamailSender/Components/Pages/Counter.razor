@@ -1,0 +1,33 @@
+﻿@page "/counter"
+@using RealEamailSender.EmailSender
+@rendermode InteractiveServer
+@inject IVerificationEmailSender emailsender
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="send">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+    private async Task send(){
+        bool result = await emailsender.SendVerificationEmailAsync("rishitha99716@gmail.com", "fg");
+        
+        if(result == false)
+        {
+            currentCount = -10;
+        }
+        else if(result==true)
+        {
+            currentCount = 20;
+        }
+
+    }
+}

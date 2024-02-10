@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ERP_Admin_portal\\test\\RealEamailSender\\RealEamailSender\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEamailSender.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RealEamailSender.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\ERP_Admin_portal\\test\\RealEamailSender\\RealEamailSender\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\ERP_Admin_portal\\test\\RealEamailSender\\RealEamailSender\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ERP_Admin_portal\\test\\RealEamailSender\\RealEamailSender\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\ERP_Admin_portal\\test\\RealEamailSender\\RealEamailSender\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RealEamailSender.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RealEamailSender.props",
+      "PackagePath": "build\\RealEamailSender.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RealEamailSender.props",
+      "PackagePath": "buildMultiTargeting\\RealEamailSender.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RealEamailSender.props",
+      "PackagePath": "buildTransitive\\RealEamailSender.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
