@@ -13,7 +13,7 @@ namespace RealEamailSender.EmailSender
         public async Task<bool> SendVerificationEmailAsync(string email, string verificationLink)
         {
             MimeMessage message = new MimeMessage();
-            message.From.Add(new MailboxAddress("ERP System Faculty of Engineering UoR", "comecprogramming@gmail.com"));
+            message.From.Add(new MailboxAddress("ERP System Faculty of Engineering UoR", "@gmail.com"));
             message.To.Add(MailboxAddress.Parse(email));
             message.Subject = "Email Verification";
 
@@ -41,7 +41,7 @@ namespace RealEamailSender.EmailSender
                     smtpClient.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
                     Console.WriteLine($"Connected to ");
 
-                    smtpClient.Authenticate("comecprogramming@gmail.com", "rixphfjzsglsjudk");
+                    smtpClient.Authenticate("@gmail.com", "passwd");
                     Console.WriteLine("Authenticated");
 
                     await smtpClient.SendAsync(message);
